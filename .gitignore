@@ -1,2 +1,94 @@
 # Ignore output of scraper
 data.sqlite
+
+# rspec/test output
+.rspec_status
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+
+# IDEs and AI assistants
+/.aider*
+/.idea
+/.vscode*
+/.fleet/
+*.sublime-*
+/.atom/
+/nbproject/
+*.tmproj
+*.tmproject
+/tmtags
+*.code-workspace
+
+# OS and editor swap/temp files
+.*.sw*
+.#*
+\#*#
+*#
+*~
+*.swp
+*.swo
+
+# temp and log files
+,*
+/tmp/
+/log/
+
+# Ignore patch files
+*.patch
+*.rej
+
+# Ruby specific
+/.bundle/
+/vendor/bundle/
+.rvmrc
+.ruby-version.local
+.ruby-gemset
+/pkg/
+*.gem
+
+# simplecov output
+/coverage/
+
+# Used by dotenv library to load environment variables.
+.env
+# Used by direnv 
+.envrc
+
+# Ignore Byebug command history file.
+.byebug_history
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*_backup
+*_old
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+

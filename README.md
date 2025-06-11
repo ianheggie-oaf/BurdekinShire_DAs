@@ -8,3 +8,4 @@ That information is buried in the linked pdfs that do not have a consistent form
 
 The pdf list is: http://www.burdekin.qld.gov.au/building-planning-and-infrastructure/town-planning/current-development-applications/
 
+We now call Claude AI API call to extract the site address from the text in pdf files.
